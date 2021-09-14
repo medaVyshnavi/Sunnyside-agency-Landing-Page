@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+h3{
+    font-family: Fraunces;
+    font-weight: $medium;
+}
+
+a{
+    text-decoration: none;
+    color:$white;
+}
+
+button{
+    background-color:$white;
+    border:none;
+    border-radius: 1.8rem;
+    padding: 0.8rem 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}

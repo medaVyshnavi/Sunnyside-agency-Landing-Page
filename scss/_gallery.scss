@@ -1,0 +1,134 @@
+.gallery{
+
+    @include breakpointUp(medium){
+        display:flex;
+    }
+
+    &_photo{
+        background-image: url('/images/mobile/image-graphic-design.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 115vh;
+        position: relative;
+        margin-top:1rem;
+
+        @include breakpointUp(small){
+            height:113vh;
+        }
+
+        @include breakpointUp(medium){
+            background-image: url('/images/desktop/image-graphic-design.jpg');
+            width:50%;
+            height: 54vh;
+            margin:0;
+        }
+
+        @include breakpointUp(large){
+            height: 70vh;
+        }
+
+        @include breakpointUp(x-large){
+            height: 80vh;
+        }
+    }
+
+    &_data{
+        background-image: url('/images/mobile/image-photography.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 115vh;
+        position: relative;
+
+        @include breakpointUp(small){
+            height:113vh;
+        }
+
+        @include breakpointUp(medium){
+            background-image: url('/images/desktop/image-photography.jpg');
+            width:50%;
+            height: 54vh;
+        }
+
+        @include breakpointUp(large){
+            height: 70vh;
+        }
+
+        @include breakpointUp(x-large){
+            height: 80vh;
+        }
+    }
+
+    .info{
+        position: absolute;
+        top: 32rem;
+        left: 2.5rem;
+        right: 2.5rem;
+        text-align:center;
+        color: $darkDesaturatedCyan;
+        padding-bottom: 2rem;
+        
+        @include breakpointUp(small){
+            top:32rem;
+        }
+
+        @include breakpointUp(medium){
+            top: 10rem;
+            left: 1rem;
+            right: 1rem;
+            padding: 2rem 0 1rem 0;
+        }
+
+        @include breakpointUp(large){
+            top: 15rem;
+        }
+
+        @include breakpointUp(x-large){
+            top: 18rem;
+        }
+        
+        h3{
+            font-size: 1.5rem;
+            padding: 0 0 2rem;
+
+            @include breakpointUp(medium){
+                font-size: 1rem;
+                 padding: 0 0 1rem;
+            }
+
+            @include breakpointUp(large){
+                font-size: 2rem;
+            }
+
+            @include breakpointUp(x-large){
+                padding: 0 0 1.5rem;
+            }
+        }
+
+        p{
+            padding: 0 1rem;
+            font-size: 16px;
+            line-height: 1.5rem;
+            
+            @include breakpointUp(medium){
+                font-size: 13px;
+                line-height: 1.2rem;
+            }
+
+            @include breakpointUp(large){
+                font-size: 15px;
+                line-height: 1.2rem;
+                padding: 0 1.9rem;
+            }
+           
+            @include breakpointUp(x-large){
+                padding: 0 7.5rem;
+                font-size: 15px;
+            }
+        }
+    }
+    #photography{
+        color:$darkBlue;
+    }
+}

@@ -1,0 +1,103 @@
+.testimonial{
+    margin-top: 5rem;
+    text-align: center;
+
+    h2{
+        text-transform: uppercase;
+        margin: 4rem 0 3rem;
+        font-family: 'Fraunces';
+        font-size: 16px;
+        color:$darkGrayishBlue;
+        font-size: 18px;
+        letter-spacing: 0.20rem;
+    }
+
+    .client{
+
+        &_details{
+            @include breakpointUp(medium){
+                display:flex;
+                justify-content: center;
+                align-content: center;
+            }
+        }
+
+        &_members{
+            margin-bottom:6rem;
+        }
+
+        &_image{
+            border-radius:50%;
+            background-size: cover;
+            width: 22%;
+
+            @include breakpointUp(small){
+                width: 32%;
+            }
+        }
+
+        &_feedback{
+            font-size: 17px;
+            padding: 1rem 1.5rem;
+            line-height: 1.7rem;
+            margin-top:1rem;
+            color:$veryDarkDesaturatedBlue;
+
+            @include breakpointUp(small){
+                padding:1rem 4rem;
+                font-size:22px;
+            }
+
+            @include breakpointUp(medium){
+                padding: 0rem 1rem;
+                font-size: 13px;
+            }
+           
+            @include breakpointUp(large){
+                padding: 1rem;
+            }
+
+            @include breakpointUp(x-large){
+                padding: 1rem 2.5rem;
+                font-size: 18px;
+            }
+           
+        }
+
+        &_name{
+            font-family:'Fraunces';
+            font-size: 26px;
+            margin-top: 1.2rem;
+
+            @include breakpointUp(medium){
+                font-size: 14px;
+            }
+
+            @include breakpointUp(large){
+                font-size: 22px;
+                margin-top: 1rem;
+            }
+        }
+
+        &_desig{
+            margin: 1.2rem 0;
+            color:$grayishBlue;
+
+            @include breakpointUp(medium){
+                font-size: 10px;
+                margin: 0.5rem 0;
+            }
+
+            @include breakpointUp(large){
+                font-size: 12px;
+                
+            }
+        }
+    }
+}
+
+#middleClient{
+    @include breakpointUp(medium){
+        width: 29%;
+    }
+}

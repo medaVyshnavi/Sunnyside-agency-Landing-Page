@@ -1,0 +1,126 @@
+.grid{
+    &_info{
+
+        @include breakpointUp(medium){
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &_image.egg{
+            background-image: url('/images/mobile/image-transform.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height:50vh;
+
+            @include breakpointUp(medium){
+                width:100vw;
+                flex-basis: 50%;
+                flex-grow: 0;
+               order:1;
+            }
+
+            @include breakpointUp(large){
+                background-image: url('/images/desktop/image-transform.jpg');
+                order: 1;
+                height: 400px;
+            }
+            
+    }
+
+    &_image.glass{
+        background-image: url('/images/mobile/image-stand-out.jpg');
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+        @include breakpointUp(medium){
+            width:100vw;
+            flex-basis: 50%;
+            flex-grow: 0;
+        }
+
+        @include breakpointUp(large){
+            background-image: url(/images/desktop/image-stand-out.jpg);
+            height: 400px;
+        }
+        
+}
+    
+
+    &_title{
+        text-align: center;
+        padding: 3.5rem 1.4rem;
+
+        @include breakpointUp(medium){
+            text-align: center;
+            padding: 1rem 2rem;
+            flex-basis: 50%;
+            flex-grow: 0;
+        }
+
+        @include breakpointUp(large){
+            text-align: left;
+            padding: 3rem;
+        }
+
+        a{
+            color:$veryDarkDesaturatedBlue;
+            text-transform: uppercase;
+            font-family: 'Fraunces';
+            text-decoration: 6px underline $yellowOpacity;
+
+        }
+
+        a:hover{
+            text-decoration: 6px underline $yellow;
+        }
+
+        h3{
+            font-size: 35px;
+            padding: 0 0 2rem;
+
+            @include breakpointUp(medium){
+               font-size:25px;
+               padding: 0 0 1rem;
+                
+            }
+
+            @include breakpointUp(large){
+                font-size: 38px;
+                padding:0;
+            }
+        }
+
+        p{
+            color: $grayishBlue;
+            padding-bottom: 2rem;
+            font-size: 18px;
+            line-height:1.8rem;
+
+            @include breakpointUp(medium){
+              font-size: 15px;
+              padding: 0 0 1.5rem;
+              line-height: 1.2rem;
+                
+            }
+
+            @include breakpointUp(large){
+                font-size: 18px;
+                padding: 1.3rem 0 2rem;
+                line-height: 1.7rem;
+            }
+        }
+    }
+    #glassUnderLine{
+        text-decoration: 6px underline $softRedOpacity;
+    }
+
+    #glassUnderLine:hover{
+        text-decoration: 6px underline $softRed;
+    }
+}

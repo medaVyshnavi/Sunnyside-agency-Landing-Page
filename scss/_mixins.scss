@@ -1,0 +1,27 @@
+// up:("mobile":"375px", "small":"570px","medium":"624px","large":"900px","x-large":"1090px","xx-large":1200px);
+// down:("small":"569px","medium":"899px","large":"1439px");
+
+$breakpoint-up:("mobile":"23.537rem","small":"35.625rem","medium":"39rem","large":"56.25rem","x-large":"68.125rem","xx-large":"75rem");
+$breakpoint-down:("x-small":"23.475rem","small":"35.5625rem","medium":"56.1875rem","large":"89.9375rem");
+
+@mixin breakpointUp($size){
+    @media(min-width:map-get($breakpoint-up,$size)){
+        @content;
+    }
+}
+
+@mixin breakpointDown($size){
+    @media(max-width:map-get($breakpoint-down,$size)){
+        @content;
+    }
+}
+
+@mixin overlayCheckBoxChecked($value:true){
+    @if $value{
+         opacity: 1;
+    }
+    @else{
+        opacity:0
+    }
+}
+
