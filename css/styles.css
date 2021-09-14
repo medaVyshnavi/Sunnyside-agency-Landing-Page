@@ -34,7 +34,7 @@ button {
 
 .header {
   width: 100vw;
-  background-image: url(../images/mobile/image-header.jpg);
+  background-image: url(./images/mobile/image-header.jpg);
   background-repeat: no-repeat;
   height: 41.5rem;
   background-size: cover;
@@ -44,7 +44,7 @@ button {
 @media (min-width: 35.625rem) {
   .header {
     height: 35.625rem;
-    background-image: url(../images/desktop/image-header.jpg);
+    background-image: url(./images/desktop/image-header.jpg);
   }
 }
 
@@ -188,7 +188,7 @@ button {
 }
 
 .header_titleImage {
-  background-image: url(../images/icon-arrow-down.svg);
+  background-image: url(./images/icon-arrow-down.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -386,7 +386,7 @@ input[type="checkbox"]:checked ~ .overlay {
 }
 
 .gallery_photo {
-  background-image: url("../images/mobile/image-graphic-design.jpg");
+  background-image: url("./images/mobile/image-graphic-design.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,7 +403,7 @@ input[type="checkbox"]:checked ~ .overlay {
 
 @media (min-width: 39rem) {
   .gallery_photo {
-    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-image: url("./images/desktop/image-graphic-design.jpg");
     width: 50%;
     height: 54vh;
     margin: 0;
@@ -423,7 +423,7 @@ input[type="checkbox"]:checked ~ .overlay {
 }
 
 .gallery_data {
-  background-image: url("../images/mobile/image-photography.jpg");
+  background-image: url("./images/mobile/image-photography.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,7 +439,7 @@ input[type="checkbox"]:checked ~ .overlay {
 
 @media (min-width: 39rem) {
   .gallery_data {
-    background-image: url("../images/desktop/image-photography.jpg");
+    background-image: url("./images/desktop/image-photography.jpg");
     width: 50%;
     height: 54vh;
   }
@@ -688,7 +688,7 @@ input[type="checkbox"]:checked ~ .overlay {
 }
 
 .footer_logo {
-  background-image: url(../logoColor/logo.svg);
+  background-image: url(./logoColor/logo.svg);
   height: 5vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -749,34 +749,34 @@ input[type="checkbox"]:checked ~ .overlay {
 }
 
 .footer #facebook {
-  background-image: url("../images/icon-facebook.svg");
+  background-image: url("./images/icon-facebook.svg");
 }
 
 .footer #instagram {
-  background-image: url("../images/icon-instagram.svg");
+  background-image: url("./images/icon-instagram.svg");
 }
 
 .footer #twitter {
-  background-image: url("../images/icon-twitter.svg");
+  background-image: url("./images/icon-twitter.svg");
 }
 
 .footer #pinterest {
-  background-image: url("../images/icon-pinterest.svg");
+  background-image: url("./images/icon-pinterest.svg");
 }
 
 .footer #facebook:hover {
-  background-image: url("../logoColor/icon-facebook.svg");
+  background-image: url("./logoColor/icon-facebook.svg");
 }
 
 .footer #instagram:hover {
-  background-image: url("../logoColor/icon-instagram.svg");
+  background-image: url("./logoColor/icon-instagram.svg");
 }
 
 .footer #twitter:hover {
-  background-image: url("../logoColor/icon-twitter.svg");
+  background-image: url("./logoColor/icon-twitter.svg");
 }
 
 .footer #pinterest:hover {
-  background-image: url("../logoColor/icon-pinterest.svg");
+  background-image: url("./logoColor/icon-pinterest.svg");
 }
 /*# sourceMappingURL=styles.css.map */
