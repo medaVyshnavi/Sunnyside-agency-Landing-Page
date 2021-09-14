@@ -32,4 +32,4 @@ For mobile navigation toggle I have tried sticking to css only though easier wit
 Further on I want to continue working on refining the code and optimising as much as possible.
 
 
-Frontend Mentor  [@yourusername](https://www.frontendmentor.io/profile/medaVyshnavi)
+Frontend Mentor  [Meda Vyshnavi](https://www.frontendmentor.io/profile/medaVyshnavi)
