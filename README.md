@@ -7,7 +7,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ![Design preview](./projectPreview/Sunny-side-Landing-Page.png)
 
 
-Live Site URL: [Add live site URL here](https://medavyshnavi.github.io/Sunnyside-agency-Landing-Page/)
+Live Site URL: [Sunnysid Landing Page](https://medavyshnavi.github.io/Sunnyside-agency-Landing-Page/)
 
 ## My process
 
