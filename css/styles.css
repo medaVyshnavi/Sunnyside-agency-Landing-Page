@@ -250,7 +250,7 @@ input[type="checkbox"]:checked ~ .overlay {
 }
 
 .grid_image.egg {
-  background-image: url("images/mobile/image-transform.jpg");
+  background-image: url("../images/mobile/image-transform.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -268,14 +268,14 @@ input[type="checkbox"]:checked ~ .overlay {
 
 @media (min-width: 56.25rem) {
   .grid_image.egg {
-    background-image: url("images/desktop/image-transform.jpg");
+    background-image: url("../images/desktop/image-transform.jpg");
     order: 1;
     height: 400px;
   }
 }
 
 .grid_image.glass {
-  background-image: url("images/mobile/image-stand-out.jpg");
+  background-image: url("../images/mobile/image-stand-out.jpg");
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -292,7 +292,7 @@ input[type="checkbox"]:checked ~ .overlay {
 
 @media (min-width: 56.25rem) {
   .grid_image.glass {
-    background-image: url("images/desktop/image-stand-out.jpg");
+    background-image: url("../images/desktop/image-stand-out.jpg");
     height: 400px;
   }
 }
