@@ -3,7 +3,7 @@
     padding:3rem 1.5rem 5rem;
     
     &_logo{
-        background-image: url(/logoColor/logo.svg);
+        background-image: url(./logoColor/logo.svg);
         height: 5vh;
         background-repeat: no-repeat;
         background-position: center;
@@ -56,35 +56,35 @@
     }
 
     #facebook{
-        background-image: url('/images/icon-facebook.svg');
+        background-image: url('./images/icon-facebook.svg');
     }
     
     #instagram{
-        background-image: url('/images/icon-instagram.svg');
+        background-image: url('./images/icon-instagram.svg');
     }
     
     #twitter{
-        background-image: url('/images/icon-twitter.svg');
+        background-image: url('./images/icon-twitter.svg');
     } 
     
     #pinterest{
-        background-image: url('/images/icon-pinterest.svg');
+        background-image: url('./images/icon-pinterest.svg');
     }
 
 
     #facebook:hover{
-        background-image: url('/logoColor/icon-facebook.svg');
+        background-image: url('./logoColor/icon-facebook.svg');
     }
     
     #instagram:hover{
-        background-image: url('/logoColor/icon-instagram.svg');
+        background-image: url('./logoColor/icon-instagram.svg');
     }
     
     #twitter:hover{
-        background-image: url('/logoColor/icon-twitter.svg');
+        background-image: url('./logoColor/icon-twitter.svg');
     } 
     
     #pinterest:hover{
-        background-image: url('/logoColor/icon-pinterest.svg');
+        background-image: url('./logoColor/icon-pinterest.svg');
     }
 }
