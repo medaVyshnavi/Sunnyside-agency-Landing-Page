@@ -9,7 +9,7 @@
     }
 
     &_image.egg{
-            background-image: url('/images/mobile/image-transform.jpg');
+            background-image: url('./images/mobile/image-transform.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -23,7 +23,7 @@
             }
 
             @include breakpointUp(large){
-                background-image: url('/images/desktop/image-transform.jpg');
+                background-image: url('./images/desktop/image-transform.jpg');
                 order: 1;
                 height: 400px;
             }
@@ -31,7 +31,7 @@
     }
 
     &_image.glass{
-        background-image: url('/images/mobile/image-stand-out.jpg');
+        background-image: url('./images/mobile/image-stand-out.jpg');
         height: 50vh;
         background-position: center;
         background-repeat: no-repeat;
@@ -45,7 +45,7 @@
         }
 
         @include breakpointUp(large){
-            background-image: url(/images/desktop/image-stand-out.jpg);
+            background-image: url(./images/desktop/image-stand-out.jpg);
             height: 400px;
         }
         
